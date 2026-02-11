@@ -83,8 +83,8 @@ We are thinking of using the following **charts** to visualize the data:
 Because this project uses time-series financial data, we will split the dataset in timeline rather than randomly.
 
 For example:
-- Training data: first 80% of the timeline
-- Testing data: last 20% of the timeline
+- Training data: first 80% of the timeline 
+- Testing data: last 20% of the timeline 
 This ensures that the model only uses past information to predict future stock.
 
 Model evaluation:
